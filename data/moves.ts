@@ -22080,6 +22080,20 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Electric",
 		contestType: "Cool",
 	},
+	starfallcrash: {
+		num: -100,
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		name: "Starfall Crash",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		secondary: null,
+		target: "allAdjacentFoes",
+		type: "Fire",
+		contestType: "Beautiful",
+	},
 
 	// CAP moves
 
