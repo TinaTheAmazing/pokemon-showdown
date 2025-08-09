@@ -1,4 +1,8 @@
 export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
+	starfallcrash: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	"10000000voltthunderbolt": {
 		inherit: true,
 		isNonstandard: null,
